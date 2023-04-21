@@ -1,10 +1,10 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
  * main - Entry point
  *
  * Description: A program that prints the size of various computer types
  *
- * Return 0 (success)
+ * Return: 0 (success)
  */
 int main(void)
 {

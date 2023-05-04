@@ -18,3 +18,5 @@ print every character starting with the first characte
 prints half of the string
 8-print_array.c
 print n elements of an array of integers
+9-strcpy
+copy the string pointed to str including the terminating includingnull byte \0

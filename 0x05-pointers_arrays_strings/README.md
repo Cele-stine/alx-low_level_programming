@@ -6,3 +6,5 @@ a = 42 b = 98
 a = 98 b = 42
 2-strlen.c
 print the length os a string
+3-puts.c
+print a string

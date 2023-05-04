@@ -9,4 +9,12 @@ print the length os a string
 3-puts.c
 print a string
 4-print_rev.c
-reverse the string
+print a string in revese
+5-print_rev.c
+reverse a string
+6-puts2.c
+print every character starting with the first characte
+7-puts_half.c
+prints half of the string
+8-print_array.c
+print n elements of an array of integers

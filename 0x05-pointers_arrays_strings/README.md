@@ -8,3 +8,5 @@ a = 98 b = 42
 print the length os a string
 3-puts.c
 print a string
+4-print_rev.c
+reverse the string

@@ -10,3 +10,7 @@ compare two string
 reverse the contents of an array
 5-string_toupper
 changes lowercase letters into uppercase
+6-cap_string
+capitalize words of a string
+7-leet.c
+encode a string into 1337

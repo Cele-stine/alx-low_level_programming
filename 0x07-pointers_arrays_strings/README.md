@@ -6,3 +6,5 @@ function that copies memory area
 function that locates a character of a string
 3-strspn
 function that get the length of a prefix substring
+4-strpbrk
+a function that searches a string for any set of bytes

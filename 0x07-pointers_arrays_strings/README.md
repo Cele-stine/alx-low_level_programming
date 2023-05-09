@@ -8,3 +8,5 @@ function that locates a character of a string
 function that get the length of a prefix substring
 4-strpbrk
 a function that searches a string for any set of bytes
+5-strstr
+function that locates a string

@@ -14,3 +14,5 @@ function that locates a string
 a function that prints the chess board
 7-the line of life is a ragged diagonal between duty and desire
 t a function that prints the sum of two diagonals of a square matrix of integers
+8-Double pointers,double fun
+function that sets the value of a pointer to char

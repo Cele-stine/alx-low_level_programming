@@ -10,3 +10,5 @@ function that get the length of a prefix substring
 a function that searches a string for any set of bytes
 5-strstr
 function that locates a string
+6-chess is a mental torture
+a function that prints the chess board

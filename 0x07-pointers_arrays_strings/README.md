@@ -12,3 +12,5 @@ a function that searches a string for any set of bytes
 function that locates a string
 6-chess is a mental torture
 a function that prints the chess board
+7-the line of life is a ragged diagonal between duty and desire
+t a function that prints the sum of two diagonals of a square matrix of integers

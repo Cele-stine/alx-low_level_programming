@@ -6,3 +6,5 @@ this function prints a string followed by a new line in the reccusion function
 This function print a sting in reverse
 2. strlen_recursion
 This function retuns the length if a string
+3. fuctorial
+A function that returns the factirial of a given number

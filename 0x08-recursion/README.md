@@ -8,3 +8,5 @@ This function print a sting in reverse
 This function retuns the length if a string
 3. fuctorial
 A function that returns the factirial of a given number
+4. _pow_recursion
+This function returns xto;the power of y

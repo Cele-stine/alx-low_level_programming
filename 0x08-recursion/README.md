@@ -10,3 +10,5 @@ This function retuns the length if a string
 A function that returns the factirial of a given number
 4. _pow_recursion
 This function returns xto;the power of y
+5. _sqrt_recursion
+A function that finds the square root of n only if it a natural square root

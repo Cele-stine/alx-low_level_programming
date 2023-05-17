@@ -2,3 +2,5 @@
 a function that creates an array of chars and initializes it with a specific char
 1.strdup
 a function that returns a pointer to a new string that is a duplicate to another string while dynamically allocating memory to the new srting
+2.concanate two strings
+return a pointer to the newly allocated memory after two strings concantenate

@@ -6,3 +6,5 @@ A header fill that defines a marco named SIZE as an abbriviation for token 1024
 A header file that defines a macro named Pi as an abbriviattion for token 3.14159265359
 2.main.c
 program that prints the path of the file name
+3.function_like_marco
+Macro ABS(x) that finda the absolute value of x

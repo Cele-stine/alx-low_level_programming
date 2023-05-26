@@ -6,3 +6,5 @@ A function that returns the sum of all its parameters
 A function that prints numbers followed by a new line
 2.Print_string
 a function that prints strings followed by a new line
+3.print_all
+a function that prints anything

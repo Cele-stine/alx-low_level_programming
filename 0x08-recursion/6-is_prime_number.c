@@ -1,27 +1,32 @@
 #include "main.h"
 
-int isPrimeHelper(int n, int divisor);
-/**
- * is_prime_number - function that returns 1 if the input integer is
- * a prime number and 0 if not
- * @n: the input value
- * Return: 1 if n is a prime number
- * If not return 0
- */
+int actual_prime(int n, int i);
 
+/**
+ * is_prime_number - checks if an int is a prime number
+ * @n: number to check
+ *
+ * Return: 1 if n is a prime number, 0 if not
+ */
 int is_prime_number(int n)
 {
-	return (isPrimeHelper(n, 2));
+	if (n <= 1)
+		return (0);
+	return (actual_prime(n, n - 1));
 }
 
 /**
- * isPrimeHelper - funtiom that find if a number is a prime number
- * @n: input value
- * @divisor: input value
- * Return: 1 if n is a prime number
+ * actual_prime - calculates if a number is prime recursively
+ * @n: number to check
+ * @i: the iterator
+ * Return: 1 if n is prime, 0 if not
  */
 
-int isPrimeHelper(int n, int divisor)
+int actual_prime(int n, int i)
 {
-if 
+	if (i == 1)
+		return (1);
+	if (n % i == 0 && i > 0)
+		return (0);
+	return (actual_prime(n, i - 1));
 }

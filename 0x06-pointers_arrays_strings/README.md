@@ -18,3 +18,7 @@ encode a string into 1337
 a function that encodes string using rot13
 101-print_number.c
 a function that prints a number
+102-magic.c
+a program that prints a[2] = 98 followed by a new line
+103-infinite add.c
+a function that adds two numbers

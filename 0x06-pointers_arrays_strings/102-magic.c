@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+ * main - Entry point
+ *
+ * Return: 0 (success)
+ */
+
 int main(void)
 {
 	int n;
@@ -8,13 +14,14 @@ int main(void)
 
 	a[2] = 1024;
 	p = &n;
-	/*
-	 * write your code here...
+
+	/**
+	 * write your line of code here...
 	 * Remember:
-	 * - you are not allowed to use a
-	 *   - you are not allowed tp modify p
-	 *   - only one statement
-	 *   - you are not allowed to code anything else than thisline of code
+	 * -you are not allowed to use a
+	 *  -you are not allowed to midify p
+	 *  -onli one statment
+	 *  -you are not allowed to coder anything else than this line of code
 	 */
 	*(p + 5) = 98;
 	/* ...so that this prints 98\n */

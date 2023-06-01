@@ -12,3 +12,9 @@ A function that returns the factirial of a given number
 This function returns xto;the power of y
 5. _sqrt_recursion
 A function that finds the square root of n only if it a natural square root
+6. is_prime
+a function tht returns 1 if input integer is a prime number and 0 if not
+7. is_palindrome
+a function that returns 1 if a srting is a palindrome ,0 if not
+8. wildcmp
+a string that compares 2 strings and returns 1 if the strings caould be condideres identical, 0 if not

@@ -22,3 +22,5 @@ a function that prints a number
 a program that prints a[2] = 98 followed by a new line
 103-infinite add.c
 a function that adds two numbers
+104-print_buffer.c
+a finction that prints a buffer

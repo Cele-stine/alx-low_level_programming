@@ -19,3 +19,7 @@ on the rewcusive case the factorial of an even smaller digit is calculated this 
 this function returns x to the power if y
 the base cases being that if y is zero -1 is printed and if y is equal to 0 then 1 is printed
 the recursive case muntipies x with the result of recusively calling _pow_recursion with x and y - 1 untill the base case is reached
+5-srqrt
+this function finds the natural squre root of a number
+the base case being that if the number is 0 then -1 is printed and if the result squared is grater than the number -1 is printed
+the recusive case being if the result being increased by 1 until the point where the square of the result becomes equal to the number that the recursion stops

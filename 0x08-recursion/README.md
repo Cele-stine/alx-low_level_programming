@@ -15,3 +15,7 @@ the recursive case calcilates the lenth of the string adding one until the null 
 this function finds the factorial of any number
 with the base case of if the number is less than 0 a -1 is printed since we can only calculate the factorial of positive ints
 on the rewcusive case the factorial of an even smaller digit is calculated this is by redusing the value of the number on each instance
+4-pow
+this function returns x to the power if y
+the base cases being that if y is zero -1 is printed and if y is equal to 0 then 1 is printed
+the recursive case muntipies x with the result of recusively calling _pow_recursion with x and y - 1 untill the base case is reached

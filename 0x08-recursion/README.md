@@ -23,3 +23,7 @@ the recursive case muntipies x with the result of recusively calling _pow_recurs
 this function finds the natural squre root of a number
 the base case being that if the number is 0 then -1 is printed and if the result squared is grater than the number -1 is printed
 the recusive case being if the result being increased by 1 until the point where the square of the result becomes equal to the number that the recursion stops
+6-prime
+this function returs 1 if a number is a prime number 0 if not
+the base case being that if n is less 2 return 0 
+the recusive case adding i to the divisor to check if its mod will return 0 

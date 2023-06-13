@@ -24,7 +24,6 @@ char *str_concat(char *s1, char *s2)
 	{
 		return (" ");
 	}
-	
 	len1 = strlen(s1);
 	len2 = strlen(s2);
 
@@ -34,7 +33,6 @@ char *str_concat(char *s1, char *s2)
 	{
 		return (NULL);
 	}
-
 	strcpy(concat, s1);
 	strcat(concat, s2);
 

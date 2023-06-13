@@ -15,27 +15,28 @@ char *str_concat(char *s1, char *s2)
 	char *concat;
 	int len1;
 	int len2;
-	int totallen;
 
-	if (s1 == NULL || s2 == NULL)
+	if (s1 == NULL)
 	{
 		return (" ");
 	}
-
+	if (s2 == NULL)
+	{
+		return (" ");
+	}
+	
 	len1 = strlen(s1);
 	len2 = strlen(s2);
-	totallen = (len1 + len2 + 1);
 
-	concat = malloc(sizeof(char) * totallen);
+	concat = malloc(sizeof(char) * (len1 + len2 + 1));
 
 	if (concat == NULL)
 	{
 		return (NULL);
 	}
-	else
-	{
-		strcpy(concat, s1);
-		strcat(concat, s2);
-	}
+
+	strcpy(concat, s1);
+	strcat(concat, s2);
+
 	return (concat);
 }

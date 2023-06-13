@@ -31,7 +31,7 @@ char *_strdup(char *str)
 
 	else
 	{
-		strcpy (dup, str);
+		strcpy(dup, str);
 	}
 	return (dup);
 }

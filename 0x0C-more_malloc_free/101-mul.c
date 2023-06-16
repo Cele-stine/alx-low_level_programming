@@ -70,16 +70,12 @@ int main(int argc, char *argv[])
 	int *result;
 
 	s1 = argv[1], s2 = argv[2];
-
 	if (argc != 3 || !is_digit(s1) || !is_digit(s2))
 		errors();
-
 	len1 = strlen(s1);
-	len2 =strlen(s2);
+	len2 = strlen(s2);
 	lentot = len1 + len2 + 1;
-
 	result = malloc(sizeof(int) * lentot);
-
 	if (result == NULL)
 	{
 		return (1);
@@ -92,9 +88,7 @@ int main(int argc, char *argv[])
 		carry /= 10;
 	}
 	if (carry > 0)
-	{
 		result[len1 + len2 + 1] += carry;
-	}
 	for (i = 0; i < lentot - 1; i++)
 	{
 		if (result[i])

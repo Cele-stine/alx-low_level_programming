@@ -21,12 +21,12 @@ char *argstostr(int ac, char **av)
 		return (NULL);
 	}
 	len = 0;
-	for (i = 1; i < ac; i++)
+	for (i = 0; i < ac; i++)
 	{
-		len += strlen(av[i]) + 1;
+		len += strlen(av[i]);
 	}
 
-	concat = malloc(sizeof(char) * len);
+	concat = malloc(sizeof(char) * (len + 1));
 
 	if (concat == NULL)
 	{
